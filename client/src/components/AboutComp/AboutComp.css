@@ -1,0 +1,22 @@
+/* src/components/AboutComp.css */
+.about {
+    height: 120vh; /* Adjust height as needed */
+    background-image: url('../../assets/about-comp.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEEEEE; /* Text color */
+}
+
+.about-text {
+    background: rgba(0, 0, 0, 0.5); /* Optional: add a semi-transparent background */
+    padding: 20px;
+    border-radius: 10px; /* Optional: round the corners */
+    text-align: left;
+    font-family: 'Nexa', sans-serif; /* Updated font style */
+    font-size: 24px;
+    width: 1200px;
+    margin: 100px;
+}

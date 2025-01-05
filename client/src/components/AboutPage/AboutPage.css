@@ -1,0 +1,79 @@
+/* src/pages/AboutPage.css */
+
+.about-page {
+    padding: 40px;
+    margin-top: 100px;
+    /* max-width: 1200px; Center the page */
+    /* margin: 0 auto; Center the page */
+    font-family: 'Nexa', sans-serif; /*Ensure the title uses the correct font */
+    font-size: 24px; /* Base font size */
+}
+.about-logo {
+    height: 84px; /* Allow height to adjust automatically */
+    /* max-width: 150px; /*Set a maximum width to prevent it from getting too large */
+    width: 500px; /* Ensure the width does not stretch */
+    margin-bottom: 10px;
+}
+.about-section, .mission-section {
+    display: flex;
+    align-items: stretch; /* Stretch items to have the same height */
+    margin-bottom: 40px; /* Space between sections */
+}
+
+
+.about-text, .mission-text {
+    flex: 1; /* Allow text to take available space */
+    padding: 20px; /* Padding for text */
+    display: flex; /* Use flexbox for vertical alignment */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center vertically */
+    background-color: transparent; /* Ensure text background is transparent */
+
+}
+
+.about-image, .mission-image {
+    flex: 1; /* Allow image to take available space */
+    text-align: center; /* Center the image */
+    /* overflow: hidden; Hide overflow to crop */
+    /* height: 300px; Set a specific height for cropping */
+}
+
+.about-image img, .mission-image img {
+    width: 100%; /* Full width of the container */
+    height: auto; /*Maintain aspect ratio*/
+    object-fit: cover; /* Crop the image while maintaining aspect ratio */
+    object-position: center; /*Center the image*/
+}
+
+.vision-section {
+    width: 100%; /* Full width for the section */
+    margin-bottom: 40px; /* Space below */
+}
+
+.vision-background {
+    background-image: url('../../assets/vision-background.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    color: white; /* Text color */
+    padding: 40px; /* Padding for the text */
+    text-align: left; /* Align text to the left */
+    backdrop-filter: blur(5px); /* Blur the background */
+    /* border-radius: 10px; Optional: rounded corners */
+    height: 600px;
+}
+.vision-text{
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.vision-background h2 {
+    margin: 0 0 10px; /* Margin adjustments */
+}
+
+.mission-text {
+    text-align: left; /* Align text to the left */
+}
+
+.mission-text h2 {
+    font-family: 'Nexa Bold', sans-serif; /* Ensure the title uses the correct font */
+}

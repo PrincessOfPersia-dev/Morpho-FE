@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: 'Nexa Light';
+  src: url('../src/fonts/NexaLight.woff') format('woff');
+  /* font-weight: 300; Adjust if needed */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nexa Bold';
+  src: url('../src/fonts/NexaBold.woff') format('woff');
+  /* font-weight: 300; Adjust if needed */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Vezla';
+  src: url('../src/fonts/Vezla.ttf') format('truetype');
+  font-weight: 300; /* Adjust if needed */
+  font-style: normal;
+}

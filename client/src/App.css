@@ -1,0 +1,20 @@
+/* src/App.css */
+body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  background-color: #EEEEEE; /* Optional: Add a background color */
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh; /* Ensure it fills the viewport */
+  display: flex;
+  flex-direction: column;
+}
+
+.App-header {
+  padding-top: 60px; /* Adjust according to navbar height */
+}
+footer {
+  margin-top: auto; /* Push footer to the bottom */
+}

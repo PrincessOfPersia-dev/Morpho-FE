@@ -1,0 +1,56 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: #000000; /* Dark background */
+    color: white; /* Text color */
+    padding: 20px 0; /* Padding */
+    position: relative; /* Keep it within the flow */
+    margin-top: 10px; /* Space above footer */
+    clear: both; /* Ensure footer clears floated elements */
+}
+
+.footer-content {
+    /* max-width: 1200px; Optional: set a max width */
+    margin: 0 auto; /* Center the footer */
+    padding: 0 20px; /* Padding for sides */
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space between columns */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.footer-column {
+    flex: 1; /* Each column takes equal space */
+    min-width: 200px; /* Minimum width for each column */
+    margin: 10px; /* Space between columns */
+}
+
+.footer-logo {
+    height: 50px; /* Adjust height as needed */
+    margin-bottom: 20px; /* Space below logo */
+}
+
+.footer-nav ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove padding */
+}
+
+.footer-nav li {
+    margin: 5px 0; /* Space between items */
+}
+
+.footer-nav a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.social-media {
+    margin-top: 10px; /* Space above social media links */
+}
+
+.social-media a {
+    color: white; /* Link color */
+    margin: 0 10px; /* Space between social media links */
+}

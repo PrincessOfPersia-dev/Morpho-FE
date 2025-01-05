@@ -1,0 +1,46 @@
+/* src/components/MediaPartners.css */
+.media-partners {
+    /* padding: 40px 20px; */
+    margin-top: 40px;
+    margin-left: 16px;
+    align-items: center;
+}
+.media-title {
+    background-color: #000000; /* Black background for the title box */
+    color: #EEEEEE; /* White text */
+    padding: 5px; /*Padding around the text */
+    border-radius: 5px; /* Optional: rounded corners */
+    text-align: center; /* Center the title text */
+    margin-bottom: 20px; /* Space between title and grid */
+    width: 300px;
+
+}
+.media-partners h2 {
+    margin-bottom: 20px;
+    font-family: 'Nexa Bold', sans-serif; /* Ensure the title uses the correct font */
+    font-size: 26px;
+    letter-spacing: 4px;
+    /* color: black; Change color as needed */
+}
+
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Fixed 2-column layout */
+    gap: 20px; /* Space between images */
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.media-grid img {
+    width: 100%; /* Ensure images fill the grid cells */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: round the corners */
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); Optional: add shadow for effect */
+}
+
+/* Optional: Add media query for responsiveness */
+@media (max-width: 600px) {
+    .media-grid {
+        grid-template-columns: 1fr; /* Stack images on small screens */
+    }
+}

@@ -1,0 +1,44 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000; /* Black background */
+    padding: 5px 5px; /* Increased horizontal padding */
+    position: fixed; /* Fixed navbar */
+    top: 0; /* Stick to the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Stay on top of other elements */
+    height: 60px;
+}
+
+.nav-links {
+    list-style: none; /* Remove default list style */
+    display: flex; /* Flex layout for links */
+    margin-right: 10px;
+}
+
+.nav-links li {
+    color: #EEEEEE; /* Light gray text */
+    font-family: 'Nexa Light', sans-serif; /* Updated font style */
+    margin: 0 30px; /* Spacing between list items */
+    font-size: 18px;
+}
+
+.logo {
+    height: 40px; /* Logo height */
+}
+
+.nav-links a {
+    color: #EEEEEE; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.nav-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Padding for main content to prevent overlap with the navbar */
+.App-header {
+    padding-top: 60px; /* Adjust this according to your navbar height */
+}

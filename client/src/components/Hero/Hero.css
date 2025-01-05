@@ -1,0 +1,170 @@
+/* src/components/Hero.css */
+
+/* Hero Section */
+.hero {
+    height: 100vh; /* Full height */
+    background-image: url('../../assets/hero.jpg'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+    align-items: top;
+    color: white; /* Text color */
+    text-align: center;
+    padding: 20px; /* Padding for spacing */
+}
+
+.hero-content {
+    margin-top: 150px;
+    margin-left: 50px; /* Adjust for spacing from the left */
+    margin-bottom: 150px;
+}
+
+.hero-text {
+    background: rgba(0, 0, 0, 0.5); /* Optional: add a semi-transparent background */
+    padding: 20px;
+    border-radius: 100px; /* Optional: round the corners */
+    text-align: left;
+}
+
+.text-box {
+    background-color: #000000; /* Black background for the text box */
+    color: white; /* White text */
+    font-family: 'Nexa Bold', sans-serif; /* Updated font style */
+    font-size: 12px;
+    letter-spacing: 7px;
+    line-height: 1.6;
+    padding: 20px; /* Padding inside the box */
+    border-radius: 15px; /* Curved corners */
+    display: flex;
+    flex-direction: column; /* Stack text and button vertically */
+    align-items: flex-end; /* Align items to the right */
+    width: 500px; /* Width of the text box */
+    text-transform: uppercase; /* Make text all caps */
+}
+
+.hero-button {
+    background-color: #EEEEEE; /* Button color */
+    color: #000000; /* Button text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for button */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 24px; /* Bigger font size */
+    width: 200px; /* Wider button */
+    font-family: 'Nexa Bold', sans-serif; /* Ensure correct font */
+    margin: 10px; /* Optional: Add margin for spacing between buttons */
+}
+
+/* Competition Closed and Winners Announced Message */
+.competition-message {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.competition-message h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.competition-message p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.competition-message button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.competition-message button:hover {
+    background-color: #388E3C; /* Darker green on hover */
+}
+
+/* Competition Closed Message */
+.competition-closed {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    margin-top: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Popup styles */
+.popup {
+    position: fixed; /* Stay in the same position */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full screen */
+    height: 100%; /* Full screen */
+    background-color: rgba(0, 0, 0, 0.9); /* Dark background with transparency */
+    display: flex; /* Center the content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    z-index: 2000; /* Ensure it's above other content */
+}
+
+.popup-content {
+    position: relative; /* Position relative to contain the close button */
+    background-color: rgba(238,238,238,0.8); /* White background for popup */
+    padding: 40px; /* Increased padding for a bigger feel */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center text */
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    width: 600px; /* Increased width for the popup */
+    height: 330px;
+}
+
+.popup-content button {
+    margin-top: 10px; /* Space above the close button */
+    font-size: 28px;
+}
+
+.popup-button {
+    background-color: #000000; /* Button background color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px 30px; /* Increased padding for larger buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin: 10px; /* Margin between buttons */
+    width: 400px; /* Increased width for buttons */
+    height: 100px;
+    font-family: 'Nexa', sans-serif; /* Ensure caption uses the correct font */
+}
+
+.popup-button:hover {
+    background-color: #EEEEEE; /* Darker blue on hover */
+    color: #000000;
+}
+
+/* Close button styles */
+.close-button {
+    position: absolute; /* Position relative to the popup */
+    top: 0px; /* Distance from the top */
+    right: 10px; /* Distance from the right */
+    border: none; /* No border */
+    background: none; /* No background */
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    color: #333; /* Close button color */
+}
+
+.close-button:hover {
+    color: red; /* Change color on hover for feedback */
+}

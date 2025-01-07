@@ -54,3 +54,53 @@
     color: white; /* Link color */
     margin: 0 10px; /* Space between social media links */
 }
+/* Mobile responsiveness */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Stack footer columns vertically */
+        align-items: center; /* Center align the columns */
+        text-align: center; /* Center text inside columns */
+    }
+
+    .footer-column {
+        min-width: 100%; /* Make each column take full width */
+        margin: 15px 0; /* Adjust margin between columns */
+    }
+
+    .footer-logo {
+        height: 40px; /* Adjust logo size for smaller screens */
+    }
+
+    .footer-nav li {
+        margin: 10px 0; /* Increase space between items on small screens */
+    }
+
+    .social-media a {
+        margin: 0 15px; /* Increase space between social media links */
+    }
+}
+
+/* For very small screens (phones) */
+@media (max-width: 480px) {
+    .footer-content {
+        padding: 0 10px; /* Reduce side padding for very small screens */
+    }
+
+    .footer-logo {
+        height: 35px; /* Reduce logo size */
+    }
+
+    .footer-nav li {
+        margin: 12px 0; /* Increase space between items */
+    }
+
+    .social-media a {
+        margin: 0 12px; /* Adjust space between social media links */
+    }
+
+    .social-media {
+        margin-top: 15px; /* Increase margin above social media links */
+    }
+}

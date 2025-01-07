@@ -168,3 +168,75 @@
 .close-button:hover {
     color: red; /* Change color on hover for feedback */
 }
+/* Mobile responsiveness */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .hero {
+        background-attachment: scroll; /* Remove fixed background attachment on smaller screens */
+        height: auto; /* Allow the height to adjust based on content */
+    }
+
+    .hero-content {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 100px; /* Adjust top margin */
+    }
+
+    .text-box {
+        width: 100%; /* Make the text box width 100% on small screens */
+        padding: 15px; /* Reduce padding inside the box */
+    }
+
+    .hero-button {
+        width: 100%; /* Make the button width 100% */
+        font-size: 20px; /* Reduce font size for buttons */
+    }
+
+    .competition-message h2 {
+        font-size: 2em; /* Adjust heading font size */
+    }
+
+    .competition-message p {
+        font-size: 1em; /* Adjust paragraph font size */
+    }
+
+    .popup-content {
+        width: 80%; /* Make popup content width responsive */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .popup-button {
+        width: 90%; /* Make popup button width responsive */
+        height: 80px; /* Adjust popup button height */
+    }
+}
+
+/* For very small screens (phones) */
+@media (max-width: 480px) {
+    .hero-text {
+        padding: 15px; /* Reduce padding on smaller screens */
+    }
+
+    .text-box {
+        font-size: 10px; /* Reduce font size */
+        letter-spacing: 4px; /* Adjust letter spacing */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .hero-button {
+        font-size: 18px; /* Adjust font size */
+        padding: 8px 10px; /* Reduce padding */
+    }
+
+    .popup-content {
+        width: 90%; /* Make popup even more responsive */
+        height: auto;
+        padding: 20px; /* Adjust padding */
+    }
+
+    .popup-button {
+        width: 100%; /* Full-width button on mobile */
+        font-size: 22px; /* Adjust font size */
+    }
+}

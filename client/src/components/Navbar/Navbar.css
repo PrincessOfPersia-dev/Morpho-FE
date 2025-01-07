@@ -51,45 +51,20 @@
     }
 
     .nav-links {
-        display: none; /* Initially hide links */
-        width: 100%; /* Make nav-links full width */
-        flex-direction: column; /* Stack links vertically */
-        margin: 0; /* Remove right margin */
-        padding-left: 0; /* Remove any extra padding */
-        text-align: center; /* Center-align text */
+        display: none; /* Initially hide links
     }
 
-    .nav-links.active {
-        display: flex; /* Show links when active */
-    }
-
-    .nav-links li {
-        margin: 15px 0; /* Increase vertical spacing between items */
-        font-size: 20px; /* Increase font size on mobile */
-    }
 
     .logo {
         height: 35px; /* Slightly smaller logo on mobile */
     }
 
-    /* Hamburger menu styles */
-    .hamburger {
-        display: block; /* Show hamburger icon */
-        cursor: pointer;
-        color: #EEEEEE; /* White color */
-        font-size: 28px; /* Larger font for hamburger */
-    }
-
-    /* Hide hamburger icon on larger screens */
-    .hamburger.hidden {
-        display: none;
-    }
 }
 
 /* Extra small mobile devices */
 @media screen and (max-width: 480px) {
     .nav-links li {
-        font-size: 18px; /* Smaller font size for very small screens */
+        display: none; /* Smaller font size for very small screens */
     }
 
     .logo {

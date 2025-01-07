@@ -20,32 +20,3 @@
     width: 1200px;
     margin: 100px;
 }
-/* Mobile responsiveness */
-
-/* For tablets and smaller screens */
-@media (max-width: 768px) {
-    .about {
-        height: auto; /* Allow the section to adjust to content height */
-        padding: 10px; /* Reduce padding on smaller screens */
-    }
-
-    .about-text {
-        width: 100%; /* Make the text box width responsive */
-        margin: 20px; /* Reduce margin for smaller screens */
-        font-size: 20px; /* Reduce font size on tablets */
-    }
-}
-
-/* For very small screens (phones) */
-@media (max-width: 480px) {
-    .about {
-        height: auto; /* Let the height adjust automatically */
-        padding: 10px; /* Reduce padding further */
-    }
-
-    .about-text {
-        width: 100%; /* Make the text box take up full width */
-        font-size: 18px; /* Further reduce font size */
-        margin: 10px; /* Reduce margin */
-    }
-}

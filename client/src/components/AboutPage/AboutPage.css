@@ -77,3 +77,76 @@
 .mission-text h2 {
     font-family: 'Nexa Bold', sans-serif; /* Ensure the title uses the correct font */
 }
+/* Mobile responsiveness */
+
+/* For tablets and smaller screens */
+@media (max-width: 768px) {
+    .about-page {
+        padding: 20px; /* Reduce padding on smaller screens */
+    }
+
+    .about-logo {
+        width: 80%; /* Make the logo width responsive */
+        height: auto; /* Adjust height automatically */
+    }
+
+    .about-section, .mission-section {
+        flex-direction: column; /* Stack sections vertically */
+    }
+
+    .about-text, .mission-text {
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
+
+    .about-image, .mission-image {
+        flex: 1 100%; /* Make images take full width on smaller screens */
+    }
+
+    .vision-background {
+        padding: 20px; /* Reduce padding on small screens */
+        height: 400px; /* Adjust height of vision section */
+    }
+
+    .vision-text {
+        margin-top: 100px; /* Adjust for smaller screens */
+        margin-left: 10px; /* Adjust margin */
+        margin-right: 10px; /* Adjust margin */
+    }
+}
+
+/* For very small screens (phones) */
+@media (max-width: 480px) {
+    .about-page {
+        padding: 15px; /* Reduce padding further */
+        font-size: 18px; /* Reduce font size */
+    }
+
+    .about-logo {
+        width: 70%; /* Further adjust logo width */
+        height: auto; /* Ensure responsive height */
+    }
+
+    .about-section, .mission-section {
+        flex-direction: column; /* Stack sections vertically */
+    }
+
+    .about-text, .mission-text {
+        padding: 10px; /* Reduce padding */
+    }
+
+    .about-image img, .mission-image img {
+        width: 100%; /* Ensure images take full width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .vision-background {
+        padding: 10px; /* Reduce padding */
+        height: 300px; /* Adjust height of the vision section */
+    }
+
+    .vision-text {
+        margin-top: 80px; /* Adjust margin for smaller screens */
+        margin-left: 5px; /* Reduce margin */
+        margin-right: 5px; /* Reduce margin */
+    }
+}
